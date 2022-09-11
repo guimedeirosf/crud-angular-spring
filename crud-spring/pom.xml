@@ -14,7 +14,7 @@
 	<name>crud-spring</name>
 	<description>Projeto crud de java spring com angular</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
