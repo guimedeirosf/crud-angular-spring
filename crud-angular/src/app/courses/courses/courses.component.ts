@@ -13,7 +13,7 @@ import { MatDialog } from '@angular/material/dialog';
 export class CoursesComponent implements OnInit {
 
   courses$: Observable<Course[]>;
-  displayedColumns = ['name', 'category'];
+  displayedColumns = [ '_id','name', 'category'];
  // coursesService: CoursesService;
 
   constructor(private coursesService: CoursesService, public dialog: MatDialog ) {
